@@ -77,7 +77,6 @@ namespace Kogane.Internal
             Func<VisualElement, bool> predicate
         )
         {
-            Debug
             var selected                    = new List<VisualElement>();
             var engineAssemblyPath          = InternalEditorUtility.GetEngineAssemblyPath();
             var engineAssemblyDirectoryName = Path.GetDirectoryName( engineAssemblyPath ).Replace( "\\", "/" );
