@@ -1,7 +1,9 @@
 {
     "name": "Kogane.PackageManagerEmbedButtonExtension",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:9c3525a61a0434c8a9ff67fa775064b1"
+    ],
     "includePlatforms": [
         "Editor"
     ],
