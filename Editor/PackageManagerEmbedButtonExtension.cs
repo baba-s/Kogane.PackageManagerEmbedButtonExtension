@@ -47,7 +47,7 @@ namespace Kogane.Internal
                 root = root.parent;
             }
 
-            m_embedButton = new Button( () => Client.Embed( m_selectedPackageInfo.name ) )
+            m_embedButton = new( () => Client.Embed( m_selectedPackageInfo.name ) )
             {
                 text = "Embed",
             };
